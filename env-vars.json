@@ -1,9 +1,9 @@
 {
-	"client_id" : "",
-	"client_secret" : "",
+	"client_id" : "bf37bbe97952303089ea",
+	"client_secret" : "6c8629a21cbf20d1154d4dfaa4fb8c256ae839d7",
 	
 	"db_host" : "localhost",
-	"db_user" : "root",
+	"db_user" : "arnon",
 	"db_name" : "github-tv",
-	"db_pass" : ""
+	"db_pass" : "123456"
 }
