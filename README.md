@@ -34,10 +34,11 @@ Important Notes
 Instructions & Current status
 ----
 
-You need to have nodejs and mysql to run it. If you have xampp installed, turn on php and mysql from xampp control panel. goto localhost/phpmyadmin and create a new db. 
-Name it github-tv. 
+I used relational db, mysql and XAMPP for running locally.
 
-Import the two tables from the assets folder. 
+Import the DB github-tv.sql from the assets folder (and name it 'github-tv')
+
+Define the user in the env-vars.json (add also the port if you're not using the standard number)
 
 Run the app from the terminal: node app.js
 
@@ -45,7 +46,7 @@ goto localhost:3000/home.
 
 The code has comments, loading, error_handling. 
 Client side do not communicate directly with API. 
-I used relational db, mysql. user can rename a node.
+User can rename a node.
 
 ##### I still need to finish the next requirements:
 * Documentation

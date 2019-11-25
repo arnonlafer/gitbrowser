@@ -20,8 +20,6 @@ let con = mysql.createConnection({
 	"password" : env['db_pass'],
 	"database" : env['db_name']
 });
-
-//con.connect();
 	
 	/*
 		The following root will send the contents of repositry. You have to make a request to this root with owner of the repo and name
