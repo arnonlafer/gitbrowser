@@ -3,10 +3,9 @@ GitHub File Browser - Tree View of the files of a repository in GitHub
 
 
 Task Definition
-======
+----
 
-GitHub File Browser
-------
+#### GitHub File Browser
 
 We want to build a simple UI to present the user with a Tree View of the files of a repository in GitHub. The application requires an implementation of the Front End, Back End, and a Relational Database. You are free to choose whatever technologies you like for every part and are free to use any popular third-party libraries you think fit. The only limitation is over the database that must be relational.
 
@@ -21,7 +20,7 @@ The tree view should have the option to expand/collapse each folder. An icon ind
 Each line item in the tree view should have the possibility to edit its name - it will be saved into the relational database you chose. Please keep in mind that you should display to the user the loading of the request, handling an error that might happen and such (there is no need to update the name in GitHub, just in your DB).
 
 Important Notes
-======
+----
 
 * Document your code properly.
 * Meaningful names.
@@ -33,7 +32,7 @@ Important Notes
 ******
 
 Current status
-======
+----
 
 You need to have nodejs and mysql to run it. If you have xampp installed, turn on php and mysql from xampp control panel. goto localhost/phpmyadmin and create a new db. Name it github-tv. 
 Import the two tables from the assets folder. 
@@ -43,7 +42,7 @@ The code has comments, loading, error_handling.
 Client side do not communicate directly with API. 
 I used relational db, mysql. user can rename a node.
 
-I still need to finish the next requirements:
+##### I still need to finish the next requirements:
 Documentation
 Load More...
 
