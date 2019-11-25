@@ -48,8 +48,14 @@ The code has comments, loading, error_handling.
 Client side do not communicate directly with API. 
 User can rename a node.
 
-Inline-style: 
-![alt text](https://github.com/arnonlafer/gitbrowser/raw/master/assets/Screen%20Shot%202019-11-25%20at%202.31.15%20PM.png "Screenshot 1")
+Screenshot 1: 
+![alt text](https://github.com/arnonlafer/gitbrowser/raw/master/assets/Screen%20Shot%202019-11-25%20at%202.57.45%20PM.png "Screenshot 1")
+
+Screenshot 2: 
+![alt text](https://github.com/arnonlafer/gitbrowser/raw/master/assets/Screen%20Shot%202019-11-25%20at%202.31.51%20PM.png "Screenshot 2")
+
+Screenshot 3: 
+![alt text](https://github.com/arnonlafer/gitbrowser/raw/master/assets/Screen%20Shot%202019-11-25%20at%202.31.15%20PM.png "Screenshot 3")
 
 ##### I still need to finish the next requirements:
 * Documentation
