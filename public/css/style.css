@@ -1,0 +1,196 @@
+body {
+	background : white;
+	min-width : 900px;
+	font-family: 'Hind Madurai', sans-serif;
+}
+
+button{
+	font-family: 'Hind Madurai', sans-serif;
+}
+
+
+select:focus, input:focus, button:focus{
+	outline : none;
+}
+
+/*
+	1. topbar
+	2. tree-view
+	3. file-view
+*/
+
+
+/*
+	1. topbar
+*/
+
+
+#topbar {
+	width : 100%;
+	height : 100px;
+	background : #dde4ebaa;
+	position : fixed;
+	top : 0px;
+	left : 0px;
+	min-width : 1000px;
+	min-width : 1230px;
+	border-bottom : 10px solid white;
+}
+
+#topbar-left{
+	display : inline-block;
+}
+
+.title{
+	font-size : 18px;
+	margin-left : 20px;
+	margin-top : 15px;
+	font-weight : bold;
+	color : #1577ab;
+	margin-bottom : 0px;
+}
+
+.topbar-select{
+	margin-top : 10px;
+	margin-left : 20px;
+	background  : transparent;
+	border : 0px;
+	border-bottom : 2px solid #1577ab;
+	color : #1577ab;
+	font-size : 18px;
+	width : 130px;
+}
+
+#carousel{
+	width : 970px;
+	height : 80px;
+	display : inline-block;
+	vertical-align : top;
+	overflow : hidden;
+}
+#topbar-right{
+	display : inline-block;
+	vertical-align : top;
+	height : 80px;
+	margin-top : 10px;
+	width : calc(100% - 1150px);
+	text-align : right;
+}
+#logo{
+	max-width : 100%;
+	max-height:100%;
+	float:right;
+}
+
+/*
+	2. tree-view
+*/
+
+#treeview-container{
+	width : 280px;
+	position : fixed;
+	top : 110px;
+	left : 10px;
+	height : calc(100% - 120px);
+	background : #dde4ebaa;
+	padding : 10px;
+	overflow : auto;
+}
+
+/*
+	3. file-view
+*/
+
+#fileview-container{
+	min-width : calc(100% - 330px);
+	height : calc(100% - 120px);
+	position : absolute;
+	top : 110px;
+	left : 320px;
+}
+
+#fileview-options{
+	width : calc(100% - 10px);
+	height : 20px;
+	padding : 2.5px 5px;
+	background : #dde4ebaa;
+}
+
+#fileview-options button{
+	background : transparent;
+	border : 0px;
+	color : #1577abaa;
+	font-size : 13px;
+	font-weight : bold;
+	cursor : pointer;
+}
+#fileview-options button:hover{
+	color : #1577ab;
+}
+#fileview{
+	width : 100%;
+	min-height : calc(100% - 30px);
+	margin-top : 5px;
+}
+.çarousel-image{
+	display : none;
+}
+.fileview-content-container{
+	width : 100%;
+	height : 100%;
+	border : 0px;
+}
+
+#email-container {
+	width : 100%;
+	height : 100%;
+	position : fixed;
+	top : 0px;
+	left : 0px;
+	background : radial-gradient(rgba(80, 80, 80, 0.4), rgba(80, 80, 80, 0.9));
+	display : none;
+}
+#cancel-mail-button {
+	float : right;
+	margin : 20px;
+	border : 0px;
+	background : transparent;
+	color : white;
+	font-size : 22px;
+}
+
+#email-inputs {
+	width : 500px;
+	min-height : 100px;
+	padding : 10px;
+	border-radius : 5px;
+	background : #dde4eb;
+	margin-top : 100px;
+	text-align : left;
+}
+.box-title {
+	font-size : 18px;
+	border-bottom : 1px solid;
+}
+.box-input,.box-text {
+	width : 80%;
+	height : 35px;
+	padding : 5px;
+	border : 1px solid grey;
+	border-radius : 1px;
+	margin-top : 5px;
+}
+.box-text {
+	resize : none;
+	height : 70px;
+}
+.box-button {
+	background : #1577ab;
+	color : white;
+	float : right;
+	margin-top : 20px;
+	padding : 10px;
+	border : 0px;
+	border-radius : 5px;
+	display : block;
+}

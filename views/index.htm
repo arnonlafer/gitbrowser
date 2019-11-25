@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>Github Web Browser</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		
+		<link rel="stylesheet" href="admin/css/cpanel.css">
+		<link href="https://fonts.googleapis.com/css?family=Ropa+Sans" rel="stylesheet">
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<link href="css/treeview/file-tree.min.css" rel="stylesheet">
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script> 
+		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> 
+		<script src="js/treeview/file-tree.min.js"></script>
+		<script src="js/treeview/main.js"></script>
+		<script src="js/treeview/admin_tree.js"></script>
+	</head>
+	<body>
+		<div id="cbod">
+			<div id='' class='m_unit' i = '6' style='display : block;'>
+				<br>
+				<label class='title'>Choose Root</label>
+				<br>
+				<select class='topbar-select'style='width : 300px;' id='roots'>
+					<option value='-1'>Choose</option>
+					<option value='0'>Other</option>
+				</select>
+				<div id='other-repo' style='display:none'>
+					<input type = "text" placeholder = "Repo Owner" id='new-repo-owner' style='width:300px;'><br>
+					<input type = "text" placeholder = "Repo Name" id='new-repo-name' style='width:300px;'><br>
+					<input type='submit' value='Add' id='add-root'>
+				</div>
+				<br>
+				<div id='treeview-container' style='width : 300px; height : calc(100% - 120px);display : inline-block;margin-top :20px;'></div>
+				<div id='' style='display : inline-block; min-width : 300px; width : calc(100% - 650px);height : 100px;vertical-align : top;margin:0px 20px; margin-top : -100px;'>
+					<div id = "for-file">
+						
+					</div>
+						<label>Edit Name</label>
+						<label style='font-size:18px;' class = 'current_node'></label>
+						<p style='font-size:13px'>If you delete this menu/submenu, all of its children will be removed. They will be present in database and can be recovered.</p>
+						<input type='text' placeholder='New Name' id='node-new-name' style='width : 90%'>
+						<input type='submit' value='Rename' id='rename-node'>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

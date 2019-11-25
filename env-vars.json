@@ -1,0 +1,9 @@
+{
+	"client_id" : "0ee4b81cab1ac12a05ff",
+	"client_secret" : "c60c99cd995a9a1d192731546be8b0ffbad991f5",
+	
+	"db_host" : "localhost",
+	"db_user" : "root",
+	"db_name" : "github-tv",
+	"db_pass" : ""
+}
