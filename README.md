@@ -31,7 +31,7 @@ Important Notes
 
 ******
 
-Current status
+Instructions & Current status
 ----
 
 You need to have nodejs and mysql to run it. If you have xampp installed, turn on php and mysql from xampp control panel. goto localhost/phpmyadmin and create a new db. Name it github-tv. 
