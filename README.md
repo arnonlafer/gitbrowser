@@ -43,6 +43,6 @@ Client side do not communicate directly with API.
 I used relational db, mysql. user can rename a node.
 
 ##### I still need to finish the next requirements:
-Documentation
-Load More...
+* Documentation
+* Load More...
 
