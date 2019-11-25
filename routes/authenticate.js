@@ -1,5 +1,5 @@
 const express = require('express');
-const parentDir = __dirname.substr(0, __dirname.lastIndexOf('\\')); //We use this to goto parent directory
+//const parentDir = __dirname.substr(0, __dirname.lastIndexOf('\\')); //We use this to goto parent directory
 
 	/*
 		We have to send requests to Github API. node does not have fetch API. So, we used node-fetch module to get this API.
@@ -19,7 +19,7 @@ router.get("/", (req, res) => {
 		res.redirect("/home") //user is authenticated. Take him/her to main page
 	}
 	else {
-		res.sendFile(parentDir + "/views/authenticate.htm");
+		res.sendFile(__dirname + "/views/authenticate.htm");
 	}
 });
 router.get("/re", (req, res) => {

@@ -36,7 +36,8 @@ Instructions & Current status
 
 You need to have nodejs and mysql to run it. If you have xampp installed, turn on php and mysql from xampp control panel. goto localhost/phpmyadmin and create a new db. Name it github-tv. 
 Import the two tables from the assets folder. 
-Run the app. goto localhost:3000/home.
+Run the app from the terminal: node app.js
+goto localhost:3000/home.
 
 The code has comments, loading, error_handling. 
 Client side do not communicate directly with API. 
