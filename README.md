@@ -48,6 +48,9 @@ The code has comments, loading, error_handling.
 Client side do not communicate directly with API. 
 User can rename a node.
 
+Inline-style: 
+![alt text](https://github.com/arnonlafer/gitbrowser/raw/master/assets/Screen%20Shot%202019-11-25%20at%202.31.15%20PM.png "Screenshot 1")
+
 ##### I still need to finish the next requirements:
 * Documentation
 * Load More...
